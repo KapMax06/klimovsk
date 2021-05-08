@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="page_header container">
+        <nav class="main_menu">
+            <ul class="main_menu_list">
+                <li><a class="main_menu_link" href="#about_city">О городе</a></li>
+                <li><a class="main_menu_link" href="#gallery">Галерея</a></li>
+                <li><a class="main_menu_link" href="#city_map">Карта</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slider">
+        <h1 class="main_heading container">Открой для себя Климовск</h1>
+    </div>
+    <article class="about_city container">
+        <a name="about_city"></a>
+        <h2 class="heading">О городе</h2>
+        <section class="about_city__description">
+            <h3 class="subheading">Климовск - тихий и спокойный город.</h3>
+            <p>Город расположился неподалёку от Москвы, в 50км южнее от неё.</p>
+        </section>
+        <div class="about_city__wrapper">
+            <section class="about_city__list">
+                <h3 class="subheading">Климовск в цифрах:</h3>
+                <ul class="characteristics_city">
+                    <li>Население: чуть больше 56 000 человек</li>
+                    <li>Часовой пояс: UTC+3</li>
+                    <!-- <li>Зоны для катания: 9 штук, все связаны между собой транспортным сообщением</li> -->
+                    <!-- <li>Перепад высот: 860 метров - 3100 метров</li> -->
+                    <!-- <li>Продолжительность сезона: с 12 месяца (декабрь) по 4 месяц (апрель) включительно</li> -->
+                    <!-- <li>Возраст посетителей всех зон: с 2 лет и старше, без ограничений.</li> -->
+                    <li>Средняя температура зимой: -10 *C</li>
+                    <li>Средняя температура летом: +17 *С</li>
+                </ul>
+            </section>
+            <aside class="ad">
+                <!-- <img class="ad_img" src="img/skier.png" alt="Реклама"> -->
+                <div class="ad_wrapper">
+                    <p class="ad_text ad_text1">СОБРАЛСЯ В КЛИМОВСК?
+                    </p>
+                    <p class="ad_text">- ВОЗЬМИ ТЁПЛУЮ ОДЕЖДУ, ВЕДЬ ЗДЕСЬ ХОЛОДНО!</p>
+                </div>
+                <!-- <a class="ad_link" href="#">SKI-RACER.COM</a> -->
+            </aside>
+        </div>
+        <section class="temperature">
+            <h3 class="subheading">Температура по месяцам</h3>
+            <figure class="diagram">
+                <img src="img/01-02-01.png" alt="Диаграмма">
+                <figcaption>Температура воздуха в Климовске, *C</figcaption>
+            </figure>
+        </section>
+    </article>
+    <section class="gallery container">
+        <a name="gallery"></a>
+        <h2 class="heading">Галерея</h2>
+        <!-- <p class="gallery__text">Впрочем, кроме спусков на лыжах, здесь хватает удивительных мест.</p> -->
+        <div class="gallery__card">
+            <div class="gallery__name_wrapper">
+                <p class="gallery__card_name">МЕМОРИАЛ ПОГИБШИМ</p>
+            </div>
+            <img class="gallery__card_img" src="img/5.jpg" alt="Памятник">
+        </div>
+        <div class="gallery__card gallery__card2">
+            <img class="gallery__card_img gallery__card_img2" src="img/398_0083023b.jpg" alt="Церковь">
+            <div class="gallery__name_wrapper">
+                <p class="gallery__card_name">ЦЕРКОВЬ СЕРГИЯ ПОДОЛЬСКОГО</p>
+            </div>
+        </div>
+        <div class="gallery__card">
+            <div class="gallery__name_wrapper">
+                <p class="gallery__card_name">РЕКА ПЕТРИЦА</p>
+            </div>
+            <img class="gallery__card_img" src="img/eb7ec3ff84ba772305eb9596f47284c9.jpg" alt="Река">
+        </div>
+    </section>
+    <section class="city_map container">
+        <a name="city_map"></a>
+        <h2 class="heading">Климовск на карте</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36280.89955372665!2d37.493346639956826!3d55.365748995507126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4135582e83c0ec53%3A0xd7f49d8e8fb476f2!2z0JrQu9C40LzQvtCy0YHQuiwg0JzQvtGB0LrQvtCy0YHQutCw0Y8g0L7QsdC7Lg!5e0!3m2!1sru!2sru!4v1620169915773!5m2!1sru!2sru" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <!-- <p>Благодаря удобному расположению, добраться до сердца Альп не составляет особого труда.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Вид транспорта</th>
+                    <th>Из Москвы</th>
+                    <th>Из Вены</th>
+                    <th>Из Мюнхена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Самолет</td>
+                    <td><span class="td_head">Из Москвы</span>+</td>
+
+                    <td><span class="td_head">Из Вены</span>-</td>
+                    <td><span class="td_head">Из Мюнхена</span>-</td>
+                </tr>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Поезд</td>
+                    <td><span class="td_head">Из Москвы</span>+</td>
+                    <td><span class="td_head">Из Вены</span>+</td>
+                    <td><span class="td_head">Из Мюнхена</span>+</td>
+                </tr>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Автомобиль</td>
+                    <td><span class="td_head">Из Москвы</span>-</td>
+                    <td><span class="td_head">Из Вены</span>+</td>
+                    <td><span class="td_head">Из Мюнхена</span>+</td>
+                </tr>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Автобус</td>
+                    <td><span class="td_head">Из Москвы</span>-</td>
+                    <td><span class="td_head">Из Вены</span>+</td>
+                    <td><span class="td_head">Из Мюнхена</span>+</td>
+                </tr>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Иные способы</td>
+                    <td><span class="td_head">Из Москвы</span>-</td>
+                    <td><span class="td_head">Из Вены</span>Трнасфер на заказ</td>
+                    <td><span class="td_head">Из Мюнхена</span>Трнасфер на заказ</td>
+                </tr>
+            </tbody>
+        </table> -->
+    </section>
+    <footer class="end">
+        <div class="end_wrapper container">
+            <p class="hashtag">#VISITKLIMOVSK</p>
+            <div>
+                <img class="end_link" src="img/twitter.svg" alt="Twitter">
+                <img class="end_link" src="img/fb.svg" alt="FaceBook">
+                <img class="end_link" src="img/youtube.svg" alt="YouTube">
+            </div>
+            <p>2020 Russia</p>
+        </div>
+    </footer>
+</body>
+
+</html>
